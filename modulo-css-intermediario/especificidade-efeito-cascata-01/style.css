@@ -1,0 +1,18 @@
+/* .container-cascata {
+    background-color: blueviolet;
+}
+
+.container-cascata {
+    background-color: orangered;
+} */
+.container-especificade p {
+    background-color: rgb(232, 141, 76);
+}
+
+p {
+    background-color: rgb(138, 138, 231);
+}
+
+#meu-paragrafo{
+    background-color: blue;
+}
