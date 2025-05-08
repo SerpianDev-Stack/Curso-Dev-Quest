@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(154, 148, 148);
+}
+
+.cabecalho {
+    background-color: black;
+    padding: 20px 10px;
+
+    & .logo {
+        color: red;
+        display: inline-block;
+    }
+
+    & nav {
+        float: right;
+
+        & li {
+            display: inline-block;
+            padding: 15px;
+
+            & a {
+                text-decoration: none;
+                color: red;
+            }
+        }
+    }
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    /* width: 900px; */
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+
+    & .info {
+        font-size: 18px;
+    }
+}
+
+.image {
+    width: 100%;
+}
+
+@media (max-width:600px) {
+
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho nav {
+        float: none;
+
+        & li {
+            display: block;
+        }
+    }
+}

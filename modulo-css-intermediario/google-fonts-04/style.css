@@ -1,0 +1,19 @@
+/* Refeferianco as fontes na página */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap') */
+
+.Roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.Tektur {
+    font-family: "Tektur", sans-serif;
+}
+
+.Negrito {
+
+    font-weight: 700;
+}
+
+.Letra-fina {
+    font-weight: 100;
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+.bloco {
+    width: 200px;
+    height: 200px;
+} */
+
+
+/* .float .left {
+    background-color: rgb(83, 83, 237);
+    float: left;
+}
+
+.float .right {
+    background-color: rgb(240, 80, 80);
+    float: right;
+}
+
+.float:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.content img {
+    width: 300px;
+    float: right;
+    margin: 30px;
+}
