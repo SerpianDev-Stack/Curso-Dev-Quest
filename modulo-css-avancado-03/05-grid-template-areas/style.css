@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    /* grid-template-areas: "cabecalho cabecalho cabecalho" 150px
+        "navegation main aside" 400px
+        "rodape rodape rodape" 150px /
+        350px auto 350px; */
+
+    grid: "cabecalho cabecalho cabecalho" 150px "navegation main aside" 400px "rodape rodape rodape" 150px / 350px auto 350px;
+}
+
+.cabecalho {
+    background-color: aquamarine;
+    grid-area: cabecalho;
+}
+
+.menu {
+    background-color: rgb(87, 87, 220);
+    grid-area: navegation;
+}
+
+.main {
+    background-color: rgb(200, 37, 157);
+    grid-area: main;
+}
+
+.aside {
+    background-color: orangered;
+    grid-area: aside;
+}
+
+.rodape {
+    background-color: green;
+    grid-area: rodape;
+}

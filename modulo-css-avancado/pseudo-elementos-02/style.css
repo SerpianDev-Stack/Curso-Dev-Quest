@@ -1,0 +1,44 @@
+/* Estilizando a primeira letra de um elemento
+.letter::first-letter {
+    color: blue;
+}
+
+/* Estilizando a primeira linha do parágrafo */
+/* .line::first-line {
+    color: red;
+} */
+
+/* Usando dois pseudo elementos em um mesmo elemento
+.letter-line::first-letter {
+    color: blue;
+}
+
+.letter-line::first-line {
+    color: red;
+} */
+/* Estilizando os marcadores de uma lista
+li::marker {
+    color: red;
+    font-size: 30px;
+}  */
+
+/* Inserindo uma imagem antes de cada subtítulo
+h2::before {
+    content: url(https://marketplace.canva.com/EAExf_kUzrY/1/0/1600w/canva-logo-de-cafeteria-minimalista-k_vK2VzDX1E.jpg);
+   
+} */
+
+/* Inserindo uma imagem antes de cada subtítulo de forma mais difícil
+h2::before {
+    content: "";
+    background: url(https://marketplace.canva.com/EAExf_kUzrY/1/0/1600w/canva-logo-de-cafeteria-minimalista-k_vK2VzDX1E.jpg);
+    display: inline-block;
+    width: 1600px;
+    height:1600px;
+
+} */
+
+/* Inserindo imagem depois de cada subtítulo */
+h2::after {
+    content: url(https://marketplace.canva.com/EAExf_kUzrY/1/0/1600w/canva-logo-de-cafeteria-minimalista-k_vK2VzDX1E.jpg);
+}

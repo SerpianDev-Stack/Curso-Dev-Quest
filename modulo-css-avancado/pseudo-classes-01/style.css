@@ -1,0 +1,38 @@
+h2 {
+    margin: 20px;
+}
+
+p:first-child {
+    color: rgb(11, 35, 195)
+}
+
+p:last-child {
+    color: blueviolet;
+}
+
+p:not(.padrao) {
+    color: yellow
+}
+
+
+/* Estilizando do segundo ao quinto elemento */
+
+/* li:nth-child(n+2):nth-child(-n+5) {
+    color: red;
+}
+
+/* Estilizando em intervalos de um a cada 3 elementos */
+
+/* li:nth-child(3n) {
+    color: blue;
+} */ */
+
+/* Estilizando apenas os elementos de ordem par */
+
+li:nth-child(even) {
+    color: green;
+}
+
+p:only-child {
+    color: green;
+}

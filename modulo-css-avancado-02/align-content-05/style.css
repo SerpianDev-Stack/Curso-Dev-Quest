@@ -1,0 +1,41 @@
+.flex-start {
+    display: flex;
+    align-content: flex-start;
+    flex-flow: column wrap;
+}
+
+.flex-end {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
+}
+
+.center {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.space-between {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.space-around {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+.space-evelyn {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+}
+
+.stretch {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+}

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.container p {
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 1);
+
+}

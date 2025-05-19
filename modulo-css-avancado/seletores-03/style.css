@@ -1,0 +1,98 @@
+/* Estilizando pelos seletores HTML */
+h2 {
+    color: lightcoral;
+    font-size: 30px;
+}
+
+p {
+    color: blue;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    background-color: blue;
+    color: black;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+/* Estilizando pelo seletor classe */
+.class-tittle {
+    color: green;
+}
+
+.paragrafo {
+    color: violet;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    background-color: blueviolet;
+    color: black;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+#list {
+    color: orange;
+}
+
+/* Seletor que seleciona todos os elementos da página de uma vez */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Estilizando com duas classes */
+.texto {
+    font-size: 25px;
+}
+
+.texto.amarelo {
+    color: yellow;
+}
+
+.texto.vermelho {
+    color: red;
+}
+
+/* Estilizando seletores diferentes ao mesmo tempo */
+.texto1,
+.texto2,
+p {
+    color: coral;
+    font-size: 20px;
+}
+
+/* Estilizando com classe filha */
+.sessao .filha {
+    color: blueviolet;
+}
+
+/* Eztilizando com sinal de maior */
+section>p {
+    color: rgb(16, 200, 178);
+}
+
+/* Estilizando com sinal de soma */
+h2+p {
+    color: lightslategray;
+}
+
+/* Estilizando pelo atributo */
+a[target=_blank] {
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    background-color: rgb(0, 187, 255);
+    color: black;
+    padding: 40px 20px;
+    border-radius: 5px;
+}

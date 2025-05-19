@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+    border: 2px solid black;
+    height: 100px;
+}
+
+.container div {
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}

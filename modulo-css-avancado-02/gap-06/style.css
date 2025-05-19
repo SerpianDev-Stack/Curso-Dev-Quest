@@ -1,0 +1,5 @@
+.gap {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 60px 30px;
+}

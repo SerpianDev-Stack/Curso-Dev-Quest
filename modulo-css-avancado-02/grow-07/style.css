@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.container .grow-1 {
+    flex-grow: 1;
+}
+
+.container .grow-2 {
+    flex-grow: 1;
+}
+
+.container .grow-3 {
+    flex-grow: 1;
+}
